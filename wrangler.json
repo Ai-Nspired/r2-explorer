@@ -1,22 +1,17 @@
 {
-	"compatibility_date": "2025-10-08",
-	"main": "src/index.ts",
-	"name": "r2-explorer",
-	"assets": {
-		"directory": "node_modules/r2-explorer/dashboard",
-		"binding": "ASSETS",
-		"html_handling": "auto-trailing-slash",
-		"not_found_handling": "single-page-application"
-	},
-	"r2_buckets": [
-		{
-			"binding": "bucket",
-			"bucket_name": "r2-explorer-bucket",
-			"preview_bucket_name": "r2-explorer-bucket"
-		}
-	],
-	"observability": {
-		"enabled": true
-	},
-	"upload_source_maps": true
+  "name": "r2-explorer",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-10-08",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "single-page-application"
+  },
+  "r2_buckets": [
+    {
+      "binding": "BUCKET",
+      "bucket_name": "r2-explorer-bucket"
+    }
+  ]
 }
