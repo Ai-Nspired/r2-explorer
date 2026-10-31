@@ -4,6 +4,14 @@ export default R2Explorer({
 	// Set to false to allow users to upload files
 	readonly: false,
 
+export default R2Explorer({ readonly: false, basicAuth: [{
+    username: 'dno',
+    password: '123'
+  },{
+    username: 'panda',
+    password: '456'
+  }]
+});
 	// Learn more how to secure your R2 Explorer instance:
 	// https://r2explorer.com/getting-started/security/
 	// cfAccessTeamName: "my-team-name",
