@@ -4,7 +4,7 @@ export default R2Explorer({
 	// Set to false to allow users to upload files
 	readonly: false,
 
-export default R2Explorer({ readonly: false, basicAuth: [{
+ // Set basic logins
     username: 'dno',
     password: '123'
   },{
