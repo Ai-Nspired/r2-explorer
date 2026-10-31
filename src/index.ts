@@ -2,12 +2,12 @@ export default R2Explorer({
   readonly: false,
   basicAuth: [
     {
-      username: 'teste',
+      username: 'dno',
       password: 'abc'
     },
     {
-      username: 'anotherUser',
-      password: '123567'
+      username: 'panda',
+      password: '4567'
     }
   ]
 });
